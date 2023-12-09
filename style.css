@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #07b0f3, #07294b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #b4b4b4;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.circle2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #3695f3;
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
+
+.container {
+    padding: 20px;
+    height: 60vh;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cityInputContainer {
+    height: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#cityInput {
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    background-color: #07294b;
+}
+
+#dataContainer {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.city {
+    font-weight: 600;
+    color: white;
+}
+
+.temp {
+    font-weight: 300;
+    color: white;
+}
+
+.desc {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.img {
+    margin: 0.6em 0 0 0;
+    width: 6.2em;
+    filter: drop-shadow(0 1.8em 3.7em var(--shadow));
+}
+
+.msg {
+    margin-top: 1.8em;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
